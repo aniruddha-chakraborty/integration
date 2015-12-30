@@ -11,9 +11,11 @@ var  answer   = ['2','4','6','8','10','12','14','16','18','20','22','24','26','2
           var random = getRandomArbitrary(0,24);
           var image  = getGenImage(random);
 
+          $('#loading').html('loading.....');
           $('#dataimagequestion').attr('correct',random);
           $('#dataimagequestion').attr('src',image);
           $('#answerquestion').html('?');
+          $('#loading').html('Hey! Try to solve this');
 
     });
 
