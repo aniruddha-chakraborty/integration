@@ -177,7 +177,7 @@ aside.sidebarhidden header .togglemenu{
 	display:block;
 }
 /* Sidebar Navigation */
-.navi-acc { 
+.navi-acc {
 	list-style-type: none;
 	float:left;
 	width:100%;
@@ -335,13 +335,13 @@ aside.sidebarhidden .navi-acc a {
 	display:none;
 }
 /* Level 2 */
-.navi-acc li ul { 
+.navi-acc li ul {
 	background: #222430;
 	padding:10px 0;
 	margin:0;
 	list-style:none;
 }
-aside.sidebarhidden .navi-acc li ul { 
+aside.sidebarhidden .navi-acc li ul {
 	left: 68px;
 	top:0;
 	display:none !important;
@@ -349,17 +349,17 @@ aside.sidebarhidden .navi-acc li ul {
     text-indent: inherit;
     width: 200px;
 }
-aside.sidebarhidden .navi-acc li.active ul { 
+aside.sidebarhidden .navi-acc li.active ul {
 	display:block !important;
 }
 .right-sec + aside.sidebarhidden .navi-acc li ul {
 	left:auto;
 	right:68px;
 }
-aside.sidebarhidden .navi-acc li ul a{ 
+aside.sidebarhidden .navi-acc li ul a{
 	padding-left:20px;
 }
-aside.sidebarhidden .navi-acc li:hover ul { 
+aside.sidebarhidden .navi-acc li:hover ul {
 	display: block !important;
 }
 aside.sidebarhidden .navi-acc li ul li a {
@@ -458,7 +458,7 @@ aside.sidebarhidden .navi-acc li ul li a {
 	text-transform:none;
 	color:#9b9ba3;
 	font-weight:normal;
-}	
+}
 /* Right Section */
 .right-sec {
 	z-index:1;
@@ -788,7 +788,7 @@ aside.sidebarhidden .navi-acc li ul li a {
 	-o-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
-	
+
 }
 /* Content Box - Inner Section */
 .sec-box .contents{
@@ -1409,7 +1409,7 @@ aside.sidebarhidden .navi-acc li ul li a {
 .sorting_desc_disabled {
 	background: url('../images/sort_desc_disabled.png') no-repeat 99% 47%;
 }
- 
+
 table.display thead th:active,
 table.display thead td:active {
 	outline: none;
@@ -1478,7 +1478,7 @@ td .custom-radio-checkbox:first-child {
     border-radius: 20px;
     position: absolute; top: 0; bottom: 0; right: 56px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
-    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
 }
 
 .onoffswitch.customstyle .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
@@ -1486,7 +1486,7 @@ td .custom-radio-checkbox:first-child {
 }
 
 .onoffswitch.customstyle .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+    right: 0px;
 }
 /* On/Off Switches - iOS5 */
 .onoffswitch.ios5 {
@@ -1538,10 +1538,10 @@ td .custom-radio-checkbox:first-child {
     border: 2px solid #2489C5; border-radius: 30px;
     position: absolute; top: 0; bottom: 0; right: 56px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
-    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
-    background-image: -moz-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%); 
-    background-image: -webkit-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%); 
-    background-image: -o-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%); 
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
+    background-image: -moz-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%);
+    background-image: -webkit-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%);
+    background-image: -o-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%);
     background-image: linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%);
     box-shadow: 0 1px 1px white inset;
 }
@@ -1551,7 +1551,7 @@ td .custom-radio-checkbox:first-child {
 }
 
 .onoffswitch.ios5 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+    right: 0px;
 }
 /* On/Off Switches - iOS4 */
 .onoffswitch.ios4 {
@@ -1599,7 +1599,7 @@ td .custom-radio-checkbox:first-child {
     border: 2px solid #2489C5; border-radius: 5px;
     position: absolute; top: 0; bottom: 0; right: 62px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
-    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
     background-image: -moz-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
     background-image: -webkit-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
     background-image: -o-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
@@ -1611,7 +1611,7 @@ td .custom-radio-checkbox:first-child {
 }
 
 .onoffswitch.ios4 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
+    right: 0px;
 }
 /* On/Off Switches - Android */
 .onoffswitch.android {
@@ -1652,8 +1652,8 @@ td .custom-radio-checkbox:first-child {
 }
 
 .onoffswitch.android .onoffswitch-switch {
-    width: 37px; margin: 0px; text-align: center; 
-    border: 0px solid #2489C5;border-radius: 0px; 
+    width: 37px; margin: 0px; text-align: center;
+    border: 0px solid #2489C5;border-radius: 0px;
     position: absolute; top: 0; bottom: 0;
 }
 .onoffswitch.android .onoffswitch-active .onoffswitch-switch {
@@ -1664,13 +1664,13 @@ td .custom-radio-checkbox:first-child {
 }
 
 .onoffswitch.android .onoffswitch-active .onoffswitch-switch:before {
-    content: " "; position: absolute; top: 0; left: 37px; 
+    content: " "; position: absolute; top: 0; left: 37px;
     border-style: solid; border-color: #27A1CA transparent transparent #27A1CA; border-width: 15px 9px;
 }
 
 
 .onoffswitch.android .onoffswitch-inactive .onoffswitch-switch:before {
-    content: " "; position: absolute; top: 0; right: 37px; 
+    content: " "; position: absolute; top: 0; right: 37px;
     border-style: solid; border-color: transparent #A1A1A1 #A1A1A1 transparent; border-width: 15px 9px;
 }
 
@@ -1725,7 +1725,7 @@ td .custom-radio-checkbox:first-child {
     background: #A1A1A1;
     position: absolute; top: 0; bottom: 0; right: 53px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
-    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s;
 }
 
 .onoffswitch.windows8 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
@@ -1733,8 +1733,8 @@ td .custom-radio-checkbox:first-child {
 }
 
 .onoffswitch.windows8 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0px; 
-    background-color: #27A1CA; 
+    right: 0px;
+    background-color: #27A1CA;
 }
 /*editors*/
 .editor-box {
@@ -1901,17 +1901,17 @@ ul.wysihtml5-commands-disabled .dropdown-menu {
 	background:#f4f4f4;
 	margin-bottom:20px;
 }
-.invoice-box #address { 
+.invoice-box #address {
 	width: 30%;
 	height: 150px;
 	float: left;
 	resize:none;
 	border:none;
 }
-.invoice-box #customer { 
+.invoice-box #customer {
 	overflow: hidden;
 }
-.invoice-box .table{ 
+.invoice-box .table{
 	border:#e6e7e8 solid 1px;
 }
 .invoice-box #logo {
@@ -2012,7 +2012,7 @@ ul.wysihtml5-commands-disabled .dropdown-menu {
 	width: 175px;
 }
 .invoice-box #items td.description textarea,
-#items td.item-name textarea { 
+#items td.item-name textarea {
 	width: 100%;
 }
 .invoice-box #items td.total-line {
@@ -2042,14 +2042,14 @@ ul.wysihtml5-commands-disabled .dropdown-menu {
 	padding: 0 0 8px 0;
 	margin: 0 0 8px 0;
 }
-.invoice-box #terms textarea { 
+.invoice-box #terms textarea {
 	width: 100%;
 	text-align: center;
 }
-.invoice-box textarea:hover, 
-.invoice-box textarea:focus, 
-.invoice-box #items td.total-value textarea:hover, 
-.invoice-box #items td.total-value textarea:focus, 
+.invoice-box textarea:hover,
+.invoice-box textarea:focus,
+.invoice-box #items td.total-value textarea:hover,
+.invoice-box #items td.total-value textarea:focus,
 .invoice-box .delete:hover {
 	background-color:#f4f4f4 !important;
 	box-shadow:none;
@@ -2398,7 +2398,7 @@ ul.wysihtml5-commands-disabled .dropdown-menu {
 }
 /* Morris Charts */
 .chartdark {
-	
+
 }
 .morris-hover {
 	position: absolute;
@@ -2827,9 +2827,9 @@ table.display {
 	clear: both;
 	width: 100%;
 	border-bottom:#e0e0df solid 1px;
-	
+
 	/* Note Firefox 3.5 and before have a bug with border-collapse
-	 * ( https://bugzilla.mozilla.org/show%5Fbug.cgi?id=155955 ) 
+	 * ( https://bugzilla.mozilla.org/show%5Fbug.cgi?id=155955 )
 	 * border-spacing: 0; is one possible option. Conditional-css.com is
 	 * useful for this kind of thing
 	 *
@@ -2837,7 +2837,7 @@ table.display {
 	 * It subtracts one px relative to the other browsers from the first column, and
 	 * adds one to the end...
 	 *
-	 * If you want that effect I'd suggest setting a border-top/left on th/td's and 
+	 * If you want that effect I'd suggest setting a border-top/left on th/td's and
 	 * then filling in the gaps with other borders.
 	 */
 }
@@ -2893,7 +2893,7 @@ table.display td.center {
 .sorting_desc_disabled {
 	background: url('../images/sort_desc_disabled.png') no-repeat center right;
 }
- 
+
 table.display thead th:active,
 table.display thead td:active {
 	outline: none;
@@ -3061,7 +3061,7 @@ table.display tr.odd.row_selected td {
  */
 /* For the standard odd/even */
 tr.odd td.sorting_1 {
-	
+
 }
 
 tr.odd td.sorting_2 {
@@ -3326,7 +3326,7 @@ html .fc, .fc table {
 	margin-right: 0; /* back to normal */
 }
 /* button layering (for border precedence) */
-	
+
 .fc-header .fc-state-hover, .fc-header .ui-state-hover {
 	z-index: 2;
 }
@@ -3338,7 +3338,7 @@ html .fc, .fc table {
 }
 /* Content
 ------------------------------------------------------------------------*/
-	
+
 .fc-content {
 	clear: both;
 	zoom: 1; /* for IE7, gives accurate coordinates for [un]freezeContentHeight */
@@ -3400,7 +3400,7 @@ html .fc, .fc table {
 	font-weight: bold;
 }
 /* icon (for jquery ui) */
-	
+
 .fc-button .fc-icon-wrap {
 	position: relative;
 	float: left;
@@ -3518,7 +3518,7 @@ a.fc-event, .fc-event-draggable {
 	border-bottom-right-radius: 3px;
 }
 /* resizable */
-	
+
 .fc-event-hori .ui-resizable-e {
 	top: 0 !important; /* importants override pre jquery ui 1.7 styles */
 	right: -3px !important;
@@ -3582,12 +3582,12 @@ table.fc-border-separate {
 	padding: 2px 2px 1px; /* distance between events and day edges */
 }
 /* event styles */
-	
+
 .fc-grid .fc-event-time {
 	font-weight: bold;
 }
 /* right-to-left */
-	
+
 .fc-rtl .fc-grid .fc-day-number {
 	float: left;
 }
@@ -3618,7 +3618,7 @@ table.fc-border-separate {
 	padding: 2px 2px 1px;
 }
 /* make axis border take precedence */
-	
+
 .fc-agenda-days .fc-agenda-axis {
 	border-right-width: 1px;
 }
@@ -3626,7 +3626,7 @@ table.fc-border-separate {
 	border-left-width: 0;
 }
 /* all-day area */
-	
+
 .fc-agenda-allday th {
 	border-width: 0 1px;
 }
@@ -3635,7 +3635,7 @@ table.fc-border-separate {
 	_height: 34px;
 }
 /* divider (between all-day and slots) */
-	
+
 .fc-agenda-divider-inner {
 	height: 2px;
 	overflow: hidden;
@@ -3644,7 +3644,7 @@ table.fc-border-separate {
 	background: #eee;
 }
 /* slot rows */
-	
+
 .fc-agenda-slots th {
 	border-width: 1px 1px 0;
 }
@@ -3703,7 +3703,7 @@ table.fc-border-separate {
 	display: none\9; /* for IE6/7/8. nested opacity filters while dragging don't work */
 }
 /* resizable */
-	
+
 .fc-event-vert .ui-resizable-s {
 	bottom: 0 !important; /* importants override pre jquery ui 1.7 styles */
 	width: 100% !important;
