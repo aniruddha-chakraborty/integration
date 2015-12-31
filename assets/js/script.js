@@ -13,6 +13,7 @@ var  answer   = ['2','4','6','8','10','12','14','16','18','20','22','24','26','2
           var random = getRandomArbitrary(0,24);
           var image  = getGenImage(random);
 
+          $('#refresh').addClass('disabled');
           $('#loading').show();
           $('#dataimagequestion').attr('correct',random);
           $('#dataimagequestion').attr('src',image);
@@ -21,6 +22,7 @@ var  answer   = ['2','4','6','8','10','12','14','16','18','20','22','24','26','2
 
           $('#showAnswer').show();
           $('#hideAnswer').hide();
+          $('#refresh').removeClass('disabled');
 
     });
 
